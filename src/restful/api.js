@@ -17,8 +17,8 @@ const userGoodsUrl=`${serverUrl}/userGoods`              //user商品发表
 
 const carouselImgUrl=""     //Carousel图片url
 
-//高德服务key
-const gouldKey="key=1f0f58420e42d9e693be2030786a4db3"
+//高德服务key，注册高德账户获取
+const gouldKey="key="
 //高德url
 const locationUrl=`https://restapi.amap.com/v3/ip?${gouldKey}`                              //ip定位
 const keyWordUrl=`https://restapi.amap.com/v3/place/text?${gouldKey}&citylimit=true`        //关键字查询，限制城市
